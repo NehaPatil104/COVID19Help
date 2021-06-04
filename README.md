@@ -1,7 +1,7 @@
 # COVID19Help
 Project: COVID19 Help (Nandurbar district, Maharashtra, India)
 
-Developed by: Neha Sadanand Patil
+Developed by: Neha Patil
 
 Introduction:
 
