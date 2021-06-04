@@ -1,0 +1,174 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Montserrat', sans-serif;
+}
+
+#header{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+
+.navbar{
+    padding: 50px 0;
+}
+
+.navbar-brand{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.navbar-dark .navbar-brand{
+    color: #dcdde1;
+}
+
+.nav-item{
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+
+.navbar-dark .navbar-nav .nav-item .nav-link:hover{
+    background: #dcdde1;
+    color: #262626;
+}
+
+.main {
+    position: relative;
+    background: url(../images/Viriones-02.jpeg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 220px 0 200px;
+}
+
+
+.main h2{
+    margin-left: 250px;
+    padding: 0;
+    font-size: 4rem;
+    color: #dcdde1;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.main p{
+    margin-top: 1rem;
+    padding:0;
+    font-size: 1em;
+    color: #dcdde1;
+}
+.services {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.shape {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 150px;
+    margin: 20px;
+    padding: 10px;
+    background: #ebf5fc;
+    box-shadow: -6px -6px 20px rgba(255,255,255,1),
+                6px 6px 20px rgba(0,0,0,0.1);
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.shape:hover {
+    box-shadow: inset -6px -6px 20px rgba(255,255,255,0.5),
+                inset 6px 6px 20px rgba(0,0,0,0.05);
+}
+
+
+.shape a{
+    text-decoration: none;
+    color: #0b2555;
+}
+
+.shape a:hover{
+    text-decoration: none;
+    color: #641E16;
+}
+
+.bed-design {
+    background-color: #0b2555;
+    padding: 20px;
+}
+
+.bed-design a{
+    font-weight: 600;
+    padding-left: 10px;
+    text-decoration: none;
+    margin-left:70%;
+    color: white;
+    padding: 5px;
+}
+.bed-design a:hover{
+    color: black;
+    background-color: white;
+    padding: 5px;
+}
+.bed-design h1{
+    font-weight: 600;
+    font-size: 1.5rem; 
+    color: white;
+}
+
+.button {
+    border: none;
+    background-color:#0b2555;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+
+.button:hover{
+    background: #dcdde1;
+    color: #262626;
+}
+
+.brand-text {
+    font-weight: 600;
+    font-size: 2rem;
+    color: #dcdde1;
+}
+
+.shape-two {
+    float: left;
+
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    padding: 10px;
+    background: #ebf5fc;
+    box-shadow: -6px -6px 20px rgba(255,255,255,1),
+                6px 6px 20px rgba(0,0,0,0.1);
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.shape-two:hover {
+    box-shadow: inset -6px -6px 20px rgba(255,255,255,0.5),
+                inset 6px 6px 20px rgba(0,0,0,0.05);
+}
+
+
+tbody{
+    border: 1px solid white !important;
+}
+
+
